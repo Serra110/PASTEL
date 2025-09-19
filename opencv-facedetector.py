@@ -43,8 +43,8 @@ DEFAULT_CONFIDENCE = 0.5
 DEFAULT_COOLDOWN = 10  # segundos
 DEFAULT_RESOLUTION = (1920, 1080)
 MIN_FACE_SIZE = 150  # px mínimo para considerar uma face real
-FOTOS_DIR = '/home/diogo/projeto-PASTEL/fotosdetectadas'
-LOGS_DIR = '/home/diogo/projeto-PASTEL/logs'
+FOTOS_DIR = '/home/diogo/projeto-PASTEL/fotosdetectadas'# change this to your folder or gonna have an error
+LOGS_DIR = '/home/diogo/projeto-PASTEL/logs' # also this same as above 
 LOG_FILE = os.path.join(LOGS_DIR, 'app.log')
 
 # ===================== ARGUMENTOS =====================
